@@ -15,6 +15,7 @@
 		7E90CD3A2098F1A600FDCFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CD392098F1A600FDCFCA /* main.m */; };
 		7E90CD442098F1A600FDCFCA /* RandomPlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CD432098F1A600FDCFCA /* RandomPlistTests.m */; };
 		7E90CD4F2098F1A600FDCFCA /* RandomPlistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CD4E2098F1A600FDCFCA /* RandomPlistUITests.m */; };
+		7E90CD622098FC4500FDCFCA /* Lists.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E90CD612098FC4500FDCFCA /* Lists.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7E90CD4A2098F1A600FDCFCA /* RandomPlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E90CD4E2098F1A600FDCFCA /* RandomPlistUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomPlistUITests.m; sourceTree = "<group>"; };
 		7E90CD502098F1A600FDCFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E90CD612098FC4500FDCFCA /* Lists.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Lists.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				7E90CD352098F1A600FDCFCA /* LaunchScreen.storyboard */,
 				7E90CD382098F1A600FDCFCA /* Info.plist */,
 				7E90CD392098F1A600FDCFCA /* main.m */,
+				7E90CD612098FC4500FDCFCA /* Lists.plist */,
 			);
 			path = RandomPlist;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E90CD622098FC4500FDCFCA /* Lists.plist in Resources */,
 				7E90CD372098F1A600FDCFCA /* LaunchScreen.storyboard in Resources */,
 				7E90CD342098F1A600FDCFCA /* Assets.xcassets in Resources */,
 				7E90CD322098F1A500FDCFCA /* Main.storyboard in Resources */,

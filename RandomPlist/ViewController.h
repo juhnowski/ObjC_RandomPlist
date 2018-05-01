@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *Label;
+- (IBAction)RandomPlist:(id)sender;
 
 @end
 

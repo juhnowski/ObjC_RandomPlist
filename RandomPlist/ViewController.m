@@ -26,4 +26,13 @@
 }
 
 
+- (IBAction)RandomPlist:(id)sender {
+    NSString *fileContents = [[NSBundle mainBundle] pathForResource:@"Lists" ofType:@"plist"];
+    NSDictionary *wordDIC = [[NSDictionary alloc] initWithContentsOfFile:fileContents];
+    
+    NSMutableArray *items = [wordDIC valueForKey:@"List"];
+    int RandomGen = arc4random() % [items count];
+    NSString *word = [ items objectAtIndex:RandomGen];
+    [self.Label setText:[[NSString alloc] initWithFormat:@"%@", word]];
+}
 @end
